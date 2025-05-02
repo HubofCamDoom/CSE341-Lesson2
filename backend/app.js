@@ -15,8 +15,6 @@ app
   })
   .use('/professional', professionalRoutes);
 
-  app.use('/', require('./frontend'));
-
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
