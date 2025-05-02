@@ -1,2 +1,6 @@
 GET http://localhost:8080/professional
 # the request above returns a json object with all professional data for Camden Asay.
+
+###
+GET https://cse341-lesson2-p1mu.onrender.com/
+# the render request
